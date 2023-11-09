@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+    z-index: 1;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  .section-header p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    top: 20;
+    left: 30%;
+    bottom: 0;
+    width: auto;
+    padding: 0 1.5em;
+  }
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+.Our-Clients{
+  margin: 0 292px;
+}
+}
